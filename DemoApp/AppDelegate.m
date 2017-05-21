@@ -19,7 +19,7 @@
     // Override point for customization after application launch.
     NSLog(@"test");
 
-    
+    NSLog(@"This is last one");
     
     return YES;
 }
