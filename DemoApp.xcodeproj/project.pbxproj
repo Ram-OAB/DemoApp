@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		982980D21ED9C30900096D98 /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 982980D11ED9C30900096D98 /* UIViewController+Tracking.m */; };
 		98861F221ED1F8FF006B2D87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98861F211ED1F8FF006B2D87 /* main.m */; };
 		98861F251ED1F8FF006B2D87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98861F241ED1F8FF006B2D87 /* AppDelegate.m */; };
 		98861F281ED1F8FF006B2D87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98861F271ED1F8FF006B2D87 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		982980D01ED9C30900096D98 /* UIViewController+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tracking.h"; sourceTree = "<group>"; };
+		982980D11ED9C30900096D98 /* UIViewController+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracking.m"; sourceTree = "<group>"; };
 		98861F1D1ED1F8FF006B2D87 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98861F211ED1F8FF006B2D87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		98861F231ED1F8FF006B2D87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				98861F241ED1F8FF006B2D87 /* AppDelegate.m */,
 				98861F261ED1F8FF006B2D87 /* ViewController.h */,
 				98861F271ED1F8FF006B2D87 /* ViewController.m */,
+				982980D01ED9C30900096D98 /* UIViewController+Tracking.h */,
+				982980D11ED9C30900096D98 /* UIViewController+Tracking.m */,
 				98861F291ED1F8FF006B2D87 /* Main.storyboard */,
 				98861F2C1ED1F8FF006B2D87 /* Assets.xcassets */,
 				98861F2E1ED1F8FF006B2D87 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98861F281ED1F8FF006B2D87 /* ViewController.m in Sources */,
+				982980D21ED9C30900096D98 /* UIViewController+Tracking.m in Sources */,
 				98861F251ED1F8FF006B2D87 /* AppDelegate.m in Sources */,
 				98861F221ED1F8FF006B2D87 /* main.m in Sources */,
 			);
@@ -505,6 +511,7 @@
 				98861F4C1ED1F900006B2D87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98861F4D1ED1F900006B2D87 /* Build configuration list for PBXNativeTarget "DemoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				98861F4F1ED1F900006B2D87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98861F501ED1F900006B2D87 /* Build configuration list for PBXNativeTarget "DemoAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				98861F521ED1F900006B2D87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

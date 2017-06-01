@@ -17,17 +17,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    _strFordemo=@"OAB";
     
-    
-    
-    
-    
+     static int i=7;
+
+    _strFordemo=@"OAB";
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+//-(void)viewWillAppear:(BOOL)animated
+//{
+//    [super viewWillAppear:YES];
+//    
+//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    
     // Dispose of any resources that can be recreated.
 }
 

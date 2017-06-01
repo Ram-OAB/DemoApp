@@ -10,7 +10,7 @@
 
 @interface ViewController : UIViewController
 
-
+@property(atomic ,retain)NSString *strFordemo;
 
 @end
 
